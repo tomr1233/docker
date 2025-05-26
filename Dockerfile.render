@@ -1,2 +1,2 @@
 FROM calcom.docker.scarf.sh/calcom/cal.com
-COPY https://gist.github.com/tomr1233/5315e825d4cb729ba35cfc3188273878 /calcom/packages/lib/constants.ts
+COPY ./constants.ts /calcom/packages/lib/constants.ts
