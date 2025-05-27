@@ -1,4 +1,2 @@
 FROM calcom.docker.scarf.sh/calcom/cal.com
-COPY ./constants.ts /constants.ts
-COPY ./start.sh /start.sh
-RUN chmod +x /start.sh
+COPY ./constants.ts /tmp/constants.ts
