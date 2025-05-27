@@ -79,21 +79,21 @@ export const PUBLIC_QUICK_AVAILABILITY_ROLLOUT =
 
 /** @deprecated use `WEBAPP_URL` */
 export const NEXT_PUBLIC_BASE_URL = process.env.NEXT_PUBLIC_WEBAPP_URL || `https://${process.env.VERCEL_URL}`;
-export const LOGO = "https://storage.expressnext.app/expressnext+full+logo.svg";
-export const LOGO_ICON = "https://storage.expressnext.app/ENextLogo.png";
+export const LOGO = "/calcom-logo-white-word.svg";
+export const LOGO_ICON = "/cal-com-icon-white.svg";
 export const AVATAR_FALLBACK = "/avatar.svg";
-export const FAVICON_16 = "https://storage.expressnext.app/icons/favicon-16x16.png";
-export const FAVICON_32 = "https://storage.expressnext.app/icons/favicon-32x32.png";
-export const APPLE_TOUCH_ICON = "https://storage.expressnext.app/icons/apple-touch-icon.png";
-export const MSTILE_ICON = "https://storage.expressnext.app/icons/android-chrome-192x192.png";
-export const ANDROID_CHROME_ICON_192 = "https://storage.expressnext.app/icons/android-chrome-192x192.png";
-export const ANDROID_CHROME_ICON_256 = "https://storage.expressnext.app/icons/android-chrome-512x512.png";
-export const ROADMAP = "https://expressnext.app/";
-export const DESKTOP_APP_LINK = "https://expressnext.app/";
-export const JOIN_COMMUNITY = "https://expressnext.app/";
-export const POWERED_BY_URL = "https://expressnext.app/";
-export const DOCS_URL = "https://expressnext.app/";
-export const DEVELOPER_DOCS = "https://expressnext.app/";
+export const FAVICON_16 = "/favicon-16x16.png";
+export const FAVICON_32 = "/favicon-32x32.png";
+export const APPLE_TOUCH_ICON = "/apple-touch-icon.png";
+export const MSTILE_ICON = "/mstile-150x150.png";
+export const ANDROID_CHROME_ICON_192 = "/android-chrome-192x192.png";
+export const ANDROID_CHROME_ICON_256 = "/android-chrome-256x256.png";
+export const ROADMAP = "https://cal.com/roadmap";
+export const DESKTOP_APP_LINK = "https://cal.com/download";
+export const JOIN_COMMUNITY = "https://github.com/calcom/cal.com/discussions";
+export const POWERED_BY_URL = "https://go.cal.com/booking";
+export const DOCS_URL = "https://cal.com/docs";
+export const DEVELOPER_DOCS = "https://developer.cal.com";
 export const SEO_IMG_DEFAULT = `${CAL_URL}/og-image.png`;
 // The Dynamic OG Image is passed through Next's Image API to further optimize it.
 // This results in a 80% smaller image 🤯. It is however important that for the query
