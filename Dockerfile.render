@@ -1,10 +1,1 @@
 FROM calcom.docker.scarf.sh/calcom/cal.com
-
-COPY ./constants.ts /app/packages/lib/constants.ts
-
-RUN mkdir -p /app/scripts
-
-COPY ./scripts/custom-start.sh /app/scripts/custom-start.sh
-RUN chmod +x /app/scripts/custom-start.sh
-
-CMD ["/app/scripts/custom-start.sh"]
