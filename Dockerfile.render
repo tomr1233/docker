@@ -1,9 +1,9 @@
 FROM calcom.docker.scarf.sh/calcom/cal.com
 
-# Copy your modified constants file
 COPY ./constants.ts /app/packages/lib/constants.ts
 
-# Create a custom start script that rebuilds the affected parts
+RUN mkdir -p /app/scripts
+
 COPY ./scripts/custom-start.sh /app/scripts/custom-start.sh
 RUN chmod +x /app/scripts/custom-start.sh
 
